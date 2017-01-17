@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pk.reader.android"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="20"/>
+
+    <application
+        android:name=".application.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+
+        <activity android:name=".main.MainActivity"
+         android:configChanges="screenSize|orientation|keyboardHidden"
+         android:theme="@style/MyCustomTheme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+        <activity android:name=".ranking.RankingListActivity"
+                  android:configChanges="screenSize|orientation|keyboardHidden"
+                  android:theme="@style/MyCustomTheme">
+        </activity>
+
+        <activity android:name=".ranking.RankingBookActivity"
+                  android:configChanges="screenSize|orientation|keyboardHidden"
+                  android:theme="@style/MyCustomTheme">
+        </activity>
+
+        <activity android:name=".search.title.SearchByTitleActivity"
+                  android:configChanges="screenSize|orientation|keyboardHidden"
+                  android:theme="@style/MyCustomTheme">
+        </activity>
+
+        <activity android:name=".search.barcode.SearchByBarcodeActivity"
+                  android:configChanges="orientation|keyboardHidden"
+                  android:noHistory="true"
+                  android:theme="@style/MyCustomTheme">
+        </activity>
+
+        <activity android:name=".favourite.FavouriteListActivity"
+                  android:configChanges="screenSize|orientation|keyboardHidden"
+                  android:theme="@style/MyCustomTheme">
+        </activity>
+
+        <activity android:name=".commons.SingleResultActivity"
+                  android:configChanges="screenSize|orientation|keyboardHidden"
+                  android:theme="@style/MyCustomTheme">
+        </activity>
+
+        <activity android:name=".search.title.SearchListActivity"
+                  android:configChanges="screenSize|orientation|keyboardHidden"
+                  android:theme="@style/MyCustomTheme">
+        </activity>
+
+        <!-- Reciever -->
+
+        <receiver android:name=".application.MyReciever"
+                  android:enabled="true"
+                  android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.HEADSET_PLUG" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Service -->
+
+        <service android:name=".application.MyService" />
+
+    </application>
+
+</manifest>

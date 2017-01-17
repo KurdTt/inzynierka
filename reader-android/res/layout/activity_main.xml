@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:baselineAligned="false">
+        <LinearLayout android:layout_weight="0.5"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center" tools:ignore="NestedWeights">
+            <Button
+                    android:id="@+id/BarcodeSearchButton"
+                    android:drawableTop="@drawable/barcode_searching_icon"
+                    android:text="@string/barcodeSearching"
+                    style="@style/DashboardButton" />
+        </LinearLayout>
+        <LinearLayout android:layout_weight="0.5"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center">
+            <Button
+                    android:id="@+id/TitleSearchButton"
+                    android:drawableTop="@drawable/book_searching_icon"
+                    android:text="@string/titleSearching"
+                    style="@style/DashboardButton" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:baselineAligned="false">
+        <LinearLayout android:layout_weight=".5"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center" tools:ignore="NestedWeights">
+            <Button
+                    android:id="@+id/FavouriteButton"
+                    android:drawableTop="@drawable/favourite_icon"
+                    android:text="@string/favourites"
+                    style="@style/DashboardButton" />
+        </LinearLayout>
+        <LinearLayout android:layout_weight=".5"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center">
+            <Button
+                    android:id="@+id/RankingButton"
+                    android:drawableTop="@drawable/ranking_icon"
+                    android:text="@string/booksRanking"
+                    style="@style/DashboardButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

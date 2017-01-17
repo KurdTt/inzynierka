@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">BookFinder</string>
+    <string name="serviceSettings">Set service</string>
+
+    <!-- Buttons -->
+    <string name="barcodeSearching">Search by Barcode</string>
+    <string name="titleSearching">Search by Title</string>
+    <string name="favourites">Favourites</string>
+    <string name="booksRanking">Books Ranking</string>
+    <!-- Communicates -->
+    <string name="pleaseWait">Please wait…</string>
+    <string name="waitingTimeExceeded">Waiting time has been exceeded</string>
+    <string name="noConnection">No Internet connection.</string>
+    <string name="noResults">No results for the given phrase</string>
+    <string name="noTitle">You did not enter title</string>
+    <string name="titleRequirements">The title must have at least three letters</string>
+    <string name="titleOpenBrowser">Opening the browser</string>
+    <string name="questionOpenBrowser">Are you sure you want to open the browser?</string>
+    <string name="cameraOverBarcode">Hold the camera over the barcode</string>
+    <!-- Others -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="empty">(Empty)</string>
+    <string name="removeFavourites">Remove from favourites</string>
+    <string name="addFavourites">Add to favourites</string>
+    <string name="refresh">Refresh</string>
+    <string name="cover">Cover</string>
+    <string name="rating">Rating</string>
+    <string name="numberOfVotes">Number of votes</string>
+    <string name="expectedPhrase">Type the expected phrase and then press the button.</string>
+    <string name="search">Search!</string>
+    <string name="unknownAuthor">Unknown author</string>
+    <string name="isbn" translatable="false">ISBN</string>
+    <string name="pricesInBookstories">Prices in bookstories</string>
+    <string name="priceNotFound">Book price not found</string>
+    <string name="bookstoreLogo">Bookstore logo</string>
+    <string name="buy">Buy!</string>
+    <!-- Service -->
+    <string name="serviceRunning">Service is running</string>
+    <!-- Reciever -->
+    <string name="headsetIsUnplugged">Headset is unplugged</string>
+    <string name="headsetIsPlugged">Headset is plugged</string>
+    <string name="recieverBadState">Bad state</string>
+</resources>

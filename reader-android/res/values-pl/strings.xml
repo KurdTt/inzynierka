@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Przyciski -->
+    <string name="barcodeSearching">Szukaj po kodzie kreskowym</string>
+    <string name="titleSearching">Szukaj po tytule</string>
+    <string name="favourites">Ulubione</string>
+    <string name="booksRanking">Ranking książek</string>
+    <!-- Komunikaty -->
+    <string name="pleaseWait">Proszę czekać…</string>
+    <string name="waitingTimeExceeded">Przekroczono czas oczekiwania na połączenies</string>
+    <string name="noConnection">Brak połączenia z Internetem.</string>
+    <string name="noResults">Brak wyników dla podanej frazy</string>
+    <string name="noTitle">Nie wpisano tytułu</string>
+    <string name="titleRequirements">Tytuł musi zawierać co najmniej trzy litery</string>
+    <string name="titleOpenBrowser">Otwarcie przeglądarki</string>
+    <string name="questionOpenBrowser">Czy na pewno chcesz otworzyć przeglądarkę?</string>
+    <string name="cameraOverBarcode">Przytrzymaj aparat nad kodem kreskowym</string>
+    <!-- Różne -->
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="empty">(Brak)</string>
+    <string name="refresh">Odśwież</string>
+    <string name="serviceSettings">Ustaw serwis</string>
+    <string name="removeFavourites">Usuń z ulubionych</string>
+    <string name="addFavourites">Dodaj do ulubionych</string>
+    <string name="cover">Okładka</string>
+    <string name="rating">Ocena</string>
+    <string name="numberOfVotes">Ilość głosów</string>
+    <string name="expectedPhrase">Wpisz oczekiwaną frazę, a następnie naciśnij przycisk.</string>
+    <string name="search">Wyszukaj!</string>
+    <string name="unknownAuthor">Nieznany autor</string>
+    <string name="pricesInBookstories">Ceny w księgarniach</string>
+    <string name="priceNotFound">Nie znaleziono ceny książki</string>
+    <string name="bookstoreLogo">Logo księgarni</string>
+    <string name="buy">Kup!</string>
+    <!-- Serwis -->
+    <string name="serviceRunning">Serwis działa</string>
+    <!-- Reciever -->
+    <string name="headsetIsUnplugged">Słuchawki są odłączone</string>
+    <string name="headsetIsPlugged">Słuchawki są podłączone</string>
+    <string name="recieverBadState">Zły stan</string>
+</resources>
